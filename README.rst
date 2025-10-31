@@ -16,7 +16,6 @@ Usage
 
 .. code:: python
 
-    import json
     import sseclient
 
     def with_urllib3(url, headers):
