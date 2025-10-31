@@ -71,6 +71,7 @@ Example with error handling and connection management:
     except KeyboardInterrupt:
         print('Connection closed by user')
     finally:
+        # Close the SSEClient (also closes the underlying response)
         client.close()
 
 Resources
